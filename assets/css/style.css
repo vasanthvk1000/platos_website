@@ -27623,3 +27623,77 @@ h1 {
   color: #d35400;
 }
 /* new version  timetable ends */
+
+
+/* cards start */
+
+
+ .scroll-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.scroll-track {
+  display: inline-flex;
+  gap: 20px;
+  width: max-content;
+}
+
+.card {
+  min-width: 200px;
+  /* height: 250px; */
+  background: #f5f3f3;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: none !important;
+}
+
+/* Right to Left */
+.track-left {
+  animation: scrollLeft 40s linear infinite;
+}
+.right-to-left:hover .track-left {
+  animation-play-state: paused;
+}
+
+/* Left to Right */
+.track-right {
+  animation: scrollRight 40s linear infinite;
+}
+.left-to-right:hover .track-right {
+  animation-play-state: paused;
+}
+
+/* Keyframes */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+
+
+/* cards end */
+
+
+
