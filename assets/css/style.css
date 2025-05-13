@@ -16458,6 +16458,7 @@ body.index-sc h6 {
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  height: 140px;
 }
 .header__right--item {
   display: flex;
