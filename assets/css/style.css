@@ -9785,6 +9785,9 @@ html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
+  appearance: button;
+  -moz-appearance: button;
+  appearance: button;
   -moz-appearance: button;
   appearance: button;
   cursor: pointer;
@@ -9950,12 +9953,12 @@ textarea:active {
   border-color: var(--rt-primary) !important;
 }
 
-button,
+/* button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-}
+} */
 
 input {
   height: 40px;
@@ -11071,19 +11074,19 @@ Custom Row
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input:-ms-input-placeholder,
@@ -16401,6 +16404,10 @@ body.index-sc h6 {
 .header.v__1 .navigation__menu--item__link {
   color: var(--rt-white);
 }
+
+
+
+
 .header.v__2 {
   position: relative;
 }
@@ -17552,7 +17559,7 @@ body.index-sc h6 {
   background-position: center top;
   transform: scale(1);
   -webkit-transform: scale(1);
-  -webkit-transition: opacity 3500ms ease-in, -webkit-transform 10000ms ease;
+  /* -webkit-transition: opacity 3500ms ease-in, -webkit-transform 10000ms ease; */
 }
 .rts-hero-slider-active .swiper-slide .rts-slider {
   text-align: center;
@@ -26707,7 +26714,7 @@ body.index-sc h6 {
   font-size: 24px;
   opacity: 0;
   background: var(--rt-primary);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   left: 0;
   top: 0;
